@@ -6,8 +6,8 @@ function primaMaiuscola(array) {
     let nuovoArray = []
     for (i=0; i<array.length; i++) {
         let minuscolo = array[i].toLowerCase();
-        let prendiPrimaLettera = minuscolo.charAt(0).toUpperCase() + minuscolo.slice(1);
-        nuovoArray.push(prendiPrimaLettera);
+        let capitalized = minuscolo.charAt(0).toUpperCase() + minuscolo.slice(1);
+        nuovoArray.push(capitalized);
     }
     return nuovoArray;
 }

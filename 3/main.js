@@ -1,4 +1,4 @@
-let stringhe = ["PIPPO", "Pluto", "PaPeRiNo"];
+let stringhe = ["PIPPO", "pluto", "PaPeRiNo"];
 let capitalize = primaMaiuscola(stringhe);
 console.log(capitalize);
 
